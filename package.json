@@ -1,6 +1,6 @@
 {
   "name": "httpsify",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Checks a given API endpoint to make sure it's not blocked by a network, and returns either a secure, or unsecure API url.",
   "main": "./lib/index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "sinon": "^1.10.3"
   },
   "dependencies": {
-    "memoize": "^0.1.1",
+    "async": "0.7.x",
     "superagent": "^0.18.2"
   }
 }

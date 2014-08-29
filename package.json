@@ -1,6 +1,6 @@
 {
   "name": "httpsify",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Checks a given API endpoint to make sure it's not blocked by a network, and returns either a secure, or unsecure API url.",
   "main": "./lib/index.js",
   "scripts": {

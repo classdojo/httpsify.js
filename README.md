@@ -1,4 +1,4 @@
-Checks a given API endpoint to make sure it's not blocked by a network, and returns either a secure, or unsecure API url.
+Checks a given API endpoint to make sure it's not blocked by a network, and returns either a secure, or unsecure API url. It works by pinging the `okEndpoint` a GET, and waiting for a 20x level response.
 
 
 ### Example
